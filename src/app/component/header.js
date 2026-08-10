@@ -1,7 +1,9 @@
 export default function Header() {
     return (
-        <header>
-            <h1>My App</h1>
+        <header className="title">
+            <div className="title__container">
+                <h1>Welcome To My Page Gunavathi Kuppan</h1> 
+                </div>
             
         </header>
     );
