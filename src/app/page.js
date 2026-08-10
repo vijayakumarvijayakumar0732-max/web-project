@@ -1,10 +1,11 @@
-import header from './component/header';
+import Header from "./component/header";
+import Slide from "./component/slide";
 
 export default function Page() {
-    return (
-        <div>
-       
-           
-        </div>
-    );
+  return (
+    <>
+      <Header />
+      <Slide />
+    </>
+  );
 }
