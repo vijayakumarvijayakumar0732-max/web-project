@@ -10,6 +10,7 @@
   text-align: center;
   width: 100%;
   margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
 }
 
 .title {
@@ -17,12 +18,44 @@
   background-color: #f08bbd;
   color: #fff;
   overflow: hidden;
-  padding: 16px 0;
+  padding: 96px 16px 64px;
+  background-image: url("/file.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 420px;
 }
 
-.note{
+.title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.title > * {
+  position: relative;
+  z-index: 1;
+}
+
+.note {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #b3ecb1;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding: 80px 16px 48px;
+    min-height: 320px;
+    background-position: center center;
+  }
+
+  .note {
+    font-size: 0.95rem;
+    margin-top: 18px;
+    padding: 0 12px;
+  }
 }

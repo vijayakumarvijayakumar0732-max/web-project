@@ -8,10 +8,6 @@ export default function Header() {
       <div className="note">
         <p>"Whatever our souls are made of, his and mine are the same."</p>
       </div>
-
-      <div className="background__container">
-        <img src="file.png" alt="Background image" />
-      </div>
     </header>
   );
 }
