@@ -1,7 +1,7 @@
 export default function slide(){
     return (
         <div className="slide">
-            <p>hii</p>
+            <p>I Love As Always</p>
         </div>
     );
 }

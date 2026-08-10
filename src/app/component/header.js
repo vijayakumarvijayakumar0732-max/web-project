@@ -10,7 +10,7 @@ export default function Header() {
       </div>
 
       <div className="background__container">
-        <img src="/mine.png" alt="Background image" />
+        <img src="file.png" alt="Background image" />
       </div>
     </header>
   );
